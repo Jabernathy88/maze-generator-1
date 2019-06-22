@@ -24,22 +24,20 @@
       width: 60px;
       font-size: 2rem;
     }
+    .empty-button {
+      width: 20px;
+    }
     div#buttons {
       width: 100%;
       display: flex;
       flex-direction: column;
     }
-    .button-row-1 {
+    .button-row {
+      padding-top: 2px;
       width: 100%;
       display: flex;
       justify-content: center;
     }
-    .button-row-2 {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-    }
-    
   </style>
 
   <div id="content">
@@ -55,13 +53,16 @@
             <canvas id="canvas" style="border:1px solid #000000;">
             </canvas>
             <div id="buttons">
-              <div class="button-row-1">
+              <div class="button-row">
                 <input type=button class=button value="Up" onclick="goUp()">
               </div>
-              <div class="button-row-2">
+              <div class="button-row">
                 <input type=button class=button value="Left" onclick="goLeft()">
-                <input type=button class=button value="Down" onclick="goDown()">
+                <div class="empty-button"></div>
                 <input type=button class=button value="Right" onclick="goRight()">
+              </div>
+              <div class="button-row">
+                  <input type=button class=button value="Down" onclick="goDown()">
               </div>
             </div>
           </td>
