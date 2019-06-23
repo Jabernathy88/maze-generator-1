@@ -16,6 +16,9 @@
         min-height: 100vh;
         display: block;
       }
+    #content {
+      padding: 0 20px;
+    }
     html {
       font-family: 'Arial', 'Helvetica', 'Open Sans', sans-serif;
       background: rgb(255,255,255); 
@@ -37,6 +40,11 @@
       width: 100%;
       display: flex;
       justify-content: center;
+    }
+    .player {
+      border: 1px #000 solid;
+      border-radius: 50%;
+      position: absolute;
     }
   </style>
 
@@ -70,6 +78,9 @@
       </table>
     </div>
   </div>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.2.2/firebase-firestore.js"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script>
