@@ -1,7 +1,8 @@
 $(function () {
   // My Firebase configuration
   var firebaseConfig = {
-// ENV_VARIABLES
+    // MOVE THESE TO ENV
+
   };
   
   // Initialize Firebase
