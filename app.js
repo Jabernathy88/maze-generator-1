@@ -2,7 +2,13 @@ $(function () {
   // My Firebase configuration
   var firebaseConfig = {
     // MOVE THESE TO ENV
-
+    apiKey: "AIzaSyBsrCIJiRNWfRVwIheqq8LpXmGQZ1gZvsU",
+    authDomain: "maze-generator-1.firebaseapp.com",
+    databaseURL: "https://maze-generator-1.firebaseio.com",
+    projectId: "maze-generator-1",
+    storageBucket: "",
+    messagingSenderId: "765835597169",
+    appId: "1:765835597169:web:c4dadba9cd29f18a"
   };
   
   // Initialize Firebase
