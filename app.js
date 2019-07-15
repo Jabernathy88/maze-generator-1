@@ -2,7 +2,6 @@ $(function () {
   // My Firebase configuration
   var firebaseConfig = {
     // MOVE THESE TO ENV
-
   };
   
   // Initialize Firebase
