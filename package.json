@@ -1,0 +1,39 @@
+{
+  "name": "maze-generator-1",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD ## maze-generator-1",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "braces": "2.3.1",
+    "nodemon": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js --exec npx babel-node",
+    "start": "npx babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jabernathy88/maze-generator-1.git"
+  },
+  "keywords": [],
+  "author": "Jeremy Abernathay <j.e.abernathy@gmail.com> (ghostmapmedia.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jabernathy88/maze-generator-1/issues"
+  },
+  "homepage": "https://github.com/Jabernathy88/maze-generator-1#readme"
+}
