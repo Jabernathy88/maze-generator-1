@@ -1,7 +1,7 @@
 {
   "name": "maze-generator-1",
   "version": "1.0.0",
-  "description": "<<<<<<< HEAD ## maze-generator-1",
+  "description": "maze-generator-1",
   "engines": {
     "node": "10.15.3",
     "npm": "6.9.0"
